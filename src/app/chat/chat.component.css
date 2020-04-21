@@ -1,0 +1,10 @@
+.chatbox {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid grey;
+}
