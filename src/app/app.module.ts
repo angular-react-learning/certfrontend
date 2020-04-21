@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { RegisterComponent } from './users/register/register.component';
 
 import { FormsModule } from "@angular/forms"
-import { HttpClientModule } from "@angular/common/http"
+import { HttpClientModule } from "@angular/common/http";
+import { WeatherComponent } from './weather/weather.component';
+import { HomepageComponent } from './homepage/homepage.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    RegisterComponent
+    RegisterComponent,
+    WeatherComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,
